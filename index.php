@@ -47,15 +47,15 @@ $third->add_grade(95);
 $third->add_grade(50);
 $students['z666'] = $third;
 
-$fourth = new Student1();
-$fourth->surname = "Stephen";
-$fourth->first_name = "Curry";
-$fourth->add_email('home','1233212222@qq.com');
-$fourth->status = "Freshman";
-$fourth->add_grade(30);
-$fourth->add_grade(45);
-$fourth->add_grade(55);
-$students['c279'] = $fourth;
+$fouth = new Student1();
+$fouth->surname = "Stephen";
+$fouth->first_name = "Curry";
+$fouth->add_email('home','1233212222@qq.com');
+$fouth->status = "Freshman";
+$fouth->add_grade(30);
+$fouth->add_grade(45);
+$fouth->add_grade(55);
+$students['c279'] = $fouth;
           foreach($students as $student)
           echo $student->toString();
         
